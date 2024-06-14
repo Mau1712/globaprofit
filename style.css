@@ -1,0 +1,172 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: rgb(15, 18, 61);
+    padding: 20px;
+}
+
+.titleContent {
+    width: 100% !important;
+}
+
+.title h1 {
+    margin: 0;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.title p {
+    margin: 0;
+    width: 100%;
+}
+
+/* ------------------------------ */
+
+.cajaGrande {
+    border: solid 1px rgb(15, 18, 61);
+    margin: 10px;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cajaGrande h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(15, 18, 61);
+    padding-inline: 25px;
+    padding-block: 10px;
+    background-color: rgb(247, 150, 22);
+    margin-bottom: 10px;
+
+
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 0px;
+
+}
+
+.dolarVzlaContainer {
+    width: 100%;
+    display: flex;
+}
+
+.dolarVzlaContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dolarVzlaContent p {
+    margin: 0%;
+    margin-bottom: 5px;
+    font-size: 12PX;
+    font-weight: 800;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.dolarVzlaContainer input {
+   
+    border: solid 1px rgb(15, 18, 61);
+    padding-block: 12px;
+    width: 90%;
+    border-radius: 3px;
+}
+
+.btnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btnContainer button{
+    
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(15, 18, 61);
+    color: white;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.ultAct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 10px;
+}
+
+.ultAct p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(15, 18, 61);
+}
+
+.ultAct span {
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 800;
+    color: red;
+}
+
+#pValue {
+    font-size: 20px;
+    font-weight: 800;
+    color: green;
+    margin-bottom: 0% ;
+    display: none; 
+}
+
+.ventaCompra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ventaCompra p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 800;
+    color: rgb(15, 18, 61);
+    margin-inline: 5px;
+    text-align: left;
+}
+
+.ventaCompra p span {
+    font-size: 12px;
+    font-weight: 800;
+    color: green;
+    margin-inline: 5px;
+    text-align: left;
+}
